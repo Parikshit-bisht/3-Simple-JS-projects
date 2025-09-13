@@ -1,0 +1,86 @@
+.nav-bar{
+    height: 60px;
+    background-color: rgb(216, 54, 54);
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+
+}
+.home{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width:  60px;
+    /*border: 1px solid black;*/
+    margin-left: 400px;
+    font-size: 24px;
+    
+
+}
+
+.au{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width:  120px;
+   /* border: 1px solid black;*/
+    margin-left: 450px;
+       font-size: 24px;
+}
+/* Reset and base styles */
+body {
+   
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+}
+
+/* Top-left title */
+.title {
+    margin-right: 1150px;
+    margin-top: 40px;
+    top: 20px;
+    left: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Outer container */
+.outer {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:150px;
+}
+
+/* Label above clock */
+.label {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Clock display */
+#clock {
+    font-size: 36px;
+    background-color: #e74c3c;
+    padding: 20px 50px;
+    border-radius: 10px;
+
+}
